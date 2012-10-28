@@ -1,5 +1,3 @@
-require_relative '../../../lib/irclog-parser/parser'
-
 require 'spec_helper'
 
 describe Irclog::Parser::Parser do

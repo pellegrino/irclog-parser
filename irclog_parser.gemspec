@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'irclog-parser/version'
+require 'irclog_parser/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "irclog-parser"
@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Vitor Pellegrino"]
   gem.email         = ["vitorp@gmail.com"]
   gem.description   = %q{Parses IRCLog log files}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.summary       = %q{Parses IRCLog log files}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)

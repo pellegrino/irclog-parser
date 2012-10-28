@@ -1,3 +1,5 @@
+require_relative 'message_line'
+
 module Irclog
   module Parser
     class Parser
@@ -13,6 +15,17 @@ module Irclog
       def date
         date = @log_path[/_([\d]{8})/, 1]
         Date.parse(date)
+      end
+
+      def messages
+        @log_file.lines.collect do |line|
+          MessageLine.new(line) unless is_blank_line?(line)
+        end
+      end
+
+    private
+      def is_blank_line?(line)
+        line == "..."
       end
     end
   end
