@@ -5,6 +5,10 @@ require 'irclog_parser'
 
 RSpec.configure do |config|
   def log_fixture(file_path)
-    File.expand_path "spec/fixtures/#{file_path}.log"
+    File.expand_path "#{log_fixture_path}/#{file_path}.log"
+  end
+
+  def log_fixture_path
+    "spec/fixtures"
   end
 end

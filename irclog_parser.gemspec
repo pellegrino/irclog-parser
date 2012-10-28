@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'irclog_parser/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "irclog-parser"
+  gem.name          = "irclog_parser"
   gem.version       = Irclog::Parser::VERSION
   gem.authors       = ["Vitor Pellegrino"]
   gem.email         = ["vitorp@gmail.com"]

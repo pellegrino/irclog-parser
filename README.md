@@ -21,11 +21,14 @@ Or install it yourself as:
 
 ## Usage
 
-    irc_log = Irclog::Parser::Parser.new(log_file_path)
+    irc_log = Irclog::Parser.load_file(log_file_path)
     # Available methods
-    irc_log.channel  # channel name
-    irc_log.messages # list of parsed messages
-    irc_log.date     # date of the log
+    irc_log.channel_name  # channel name
+    irc_log.messages      # list of parsed messages
+    irc_log.date          # date of the log
+
+    # loading every file from directory
+    irc_log_files = Irclog::Parser.load_directory(log_file_directory)
 
 Check the specs directory for more informations on how to use it. The
 code is still very short and simple, and should be easy enough to
