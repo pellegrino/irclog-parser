@@ -1,0 +1,53 @@
+...
+[#lolchannel 07:55] JOIN: bren
+[#lolchannel 07:55] JOIN: bren
+[#lolchannel 09:44] JOIN: foo
+[#lolchannel 09:44] JOIN: foo
+[#lolchannel 09:47] JOIN: baz
+[#lolchannel 09:47] JOIN: baz
+[#lolchannel 11:30] JOIN: bar
+[#lolchannel 11:30] JOIN: bar
+[#lolchannel 11:30] PART: bar
+[#lolchannel 11:30] PART: bar
+[#lolchannel 12:41] JOIN: bren_
+[#lolchannel 12:41] JOIN: bren_
+[#lolchannel 12:48] <foo> preparing live deploy
+[#lolchannel 12:48] <foo> preparing live deploy
+[#lolchannel 12:51] <foo> starting live deploy
+[#lolchannel 12:51] <foo> starting live deploy
+[#lolchannel 12:58] <foo> deploy status 3/12
+[#lolchannel 12:58] <foo> deploy status 3/12
+[#lolchannel 13:00] <foo> deploy status 5/12
+[#lolchannel 13:00] <foo> deploy status 5/12
+[#lolchannel 13:01] <foo> deploy status 7/12
+[#lolchannel 13:01] <foo> deploy status 7/12
+[#lolchannel 13:03] <foo> deploy status 9/12
+[#lolchannel 13:03] <foo> deploy status 9/12
+[#lolchannel 13:05] <bar> how is it possible that nobody's mentioned lunch yet
+[#lolchannel 13:05] <bar> how is it possible that nobody's mentioned lunch yet
+[#lolchannel 13:05] <bar> it's 1400 ffs
+[#lolchannel 13:05] <bar> it's 1400 ffs
+[#lolchannel 13:07] <foo> deploy done
+[#lolchannel 13:07] <foo> deploy done
+[#lolchannel 13:08] <foo> I broke the tumblr integration. Will fix immediately and code deploy.
+[#lolchannel 13:08] <foo> I broke the tumblr integration. Will fix immediately and code deploy.
+[#lolchannel 13:33] <foo> starting live deploy
+[#lolchannel 13:33] <foo> starting live deploy
+[#lolchannel 13:36] <foo> deploy status 1/12
+[#lolchannel 13:36] <foo> deploy status 1/12
+[#lolchannel 13:37] <foo> deploy status 3/12
+[#lolchannel 13:37] <foo> deploy status 3/12
+[#lolchannel 13:40] <foo> deploy status 5/12
+[#lolchannel 13:40] <foo> deploy status 5/12
+[#lolchannel 13:41] <foo> deploy status 7/12
+[#lolchannel 13:41] <foo> deploy status 7/12
+[#lolchannel 13:43] <foo> deploy status 10/12
+[#lolchannel 13:43] <foo> deploy status 10/12
+[#lolchannel 13:45] <foo> has anyone a link to the post-mortem form?
+[#lolchannel 13:45] <foo> has anyone a link to the post-mortem form?
+[#lolchannel 13:46] <foo> deploy done
+[#lolchannel 13:46] <foo> deploy done
+[#lolchannel 17:00] JOIN: foo
+[#lolchannel 17:00] JOIN: foo
+[#lolchannel 18:36] JOIN: foo
+[#lolchannel 18:36] JOIN: foo
